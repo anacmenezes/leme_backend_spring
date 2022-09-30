@@ -1,4 +1,4 @@
-package com.anamenezes.lemeviagens.exception;
+package com.anamenezes.lemeviagens.resources.exception;
 
 import java.io.Serializable;
 

@@ -13,8 +13,8 @@ import org.springframework.web.servlet.HandlerMapping;
 
 import com.anamenezes.lemeviagens.domain.Cliente;
 import com.anamenezes.lemeviagens.dto.ClienteDTO;
-import com.anamenezes.lemeviagens.exception.FieldMessage;
 import com.anamenezes.lemeviagens.repositories.ClienteRepository;
+import com.anamenezes.lemeviagens.resources.exception.FieldMessage;
 
 public class ClienteUpdateValidator implements ConstraintValidator<ClienteUpdate, ClienteDTO> {
 
