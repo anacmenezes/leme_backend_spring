@@ -70,11 +70,11 @@ public class ClienteService {
 	}
 	
 	public Cliente fromDTO(ClienteDTO objDto) {
-		return new Cliente(objDto.getId(), objDto.getNome(), objDto.getEmail(), null) ;
+		return new Cliente(objDto.getId(), objDto.getNome(), objDto.getEmail(), null, null) ;
 	}
 	
 	public Cliente fromDTO(ClienteNewDTO objDto) {
-		Cliente cli = new Cliente(null, objDto.getNome(), objDto.getEmail(), objDto.getCpfOuCnpj());
+		Cliente cli = new Cliente(null, objDto.getNome(), objDto.getEmail(), objDto.getCpf(), objDto.getSenha());
 		Endereco end = new Endereco(null, objDto.getLogradouro(), objDto.getNumero(), objDto.getComplemento(), objDto.getBairro(), objDto.getCidade(), objDto.getEstado(), objDto.getCep(), cli);
 		cli.getEnderecos().add(end);
 		cli.getTelefones().add(objDto.getTelefone1());

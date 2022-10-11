@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.anamenezes.lemeviagens.domain.Reserva;
 
 	@Repository
-	public interface ProdutoRepository extends JpaRepository<Reserva, Integer> {
+	public interface ReservaRepository extends JpaRepository<Reserva, Integer> {
 
 }
