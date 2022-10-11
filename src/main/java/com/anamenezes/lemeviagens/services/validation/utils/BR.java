@@ -1,4 +1,4 @@
-package com.anamenezes.lemeviagens.validation.utils;
+package com.anamenezes.lemeviagens.services.validation.utils;
 
 public class BR {
 // CPF

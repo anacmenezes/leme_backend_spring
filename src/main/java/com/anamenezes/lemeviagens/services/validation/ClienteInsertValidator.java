@@ -12,7 +12,7 @@ import com.anamenezes.lemeviagens.domain.Cliente;
 import com.anamenezes.lemeviagens.dto.ClienteNewDTO;
 import com.anamenezes.lemeviagens.repositories.ClienteRepository;
 import com.anamenezes.lemeviagens.resources.exception.FieldMessage;
-import com.anamenezes.lemeviagens.validation.utils.BR;
+import com.anamenezes.lemeviagens.services.validation.utils.BR;
 
 public class ClienteInsertValidator implements ConstraintValidator<ClienteInsert, ClienteNewDTO> {
 
